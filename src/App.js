@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 function App() {
 
 //api key
-  const apikey = '3eb3cf1e090a79d08698e2f187650f75'
+  const apikey = 'Enter_your_api-key'
   const [inputCity, setInputcity] = useState('')
   const[data, setData] = useState([]) 
 
