@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bg{
+  background: url('https://c4.wallpaperflare.com/wallpaper/502/672/845/blue-sea-sea-blue-sky-white-clouds-ocean-scenery-wallpaper-preview.jpg');
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.App-link {
-  color: #61dafb;
+.heading{
+  color: black;
+  font-weight: 700; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon{
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+}
+
+.weatherDisplay{
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.btn{
+  color: aqua;
+}
+
+.city{
+  font-size: 35px;
+}
+
+.temp{
+  font-size: 55px;
+  font-weight: 700;
 }
